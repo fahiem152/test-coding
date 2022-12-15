@@ -107,11 +107,6 @@ class _SewaKostState extends State<SewaKost> {
                     )
                     .toList(),
               ),
-              // child: Column(
-              //   children: dataHariSewa
-              //       .map((e) => Text('${e} Hari : ${int.parse(e) * 10000}'))
-              //       .toList(),
-              // ),
             )
           ],
         ),

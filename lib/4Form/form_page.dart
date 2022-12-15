@@ -31,7 +31,6 @@ class _FormPageState extends State<FormPage> {
                 Padding(
                   padding: const EdgeInsets.only(top: 12),
                   child: TextFormField(
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Nama',
                       hintText: 'Input Nama Kamu',
@@ -54,7 +53,6 @@ class _FormPageState extends State<FormPage> {
                     top: 12,
                   ),
                   child: TextFormField(
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Email',
                       hintText: 'Input Email Kamu',
@@ -78,7 +76,6 @@ class _FormPageState extends State<FormPage> {
                     top: 12,
                   ),
                   child: TextFormField(
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Jenis Kelamin',
                       hintText: 'Masukkan Jenis Kelamin',
@@ -86,7 +83,6 @@ class _FormPageState extends State<FormPage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Jenis Kelamin Harus Diisi';
@@ -106,7 +102,6 @@ class _FormPageState extends State<FormPage> {
                   ),
                   child: TextFormField(
                     keyboardType: TextInputType.number,
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Umur',
                       hintText: 'Input Umur kamu',
@@ -114,7 +109,6 @@ class _FormPageState extends State<FormPage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Umur Harus Diisi';
@@ -134,7 +128,6 @@ class _FormPageState extends State<FormPage> {
                   ),
                   child: TextFormField(
                     keyboardType: TextInputType.number,
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Nomor Telpon',
                       hintText: 'Input Nomor Telpon kamu',
@@ -142,7 +135,6 @@ class _FormPageState extends State<FormPage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Nomor Telpon Harus Diisi';
@@ -161,8 +153,6 @@ class _FormPageState extends State<FormPage> {
                     top: 12,
                   ),
                   child: TextFormField(
-                    // keyboardType: TextInputType.number,
-                    // controller: nameController,
                     decoration: InputDecoration(
                       labelText: 'Pendidikan',
                       hintText: 'Masukkan Pendidikan kamu',
@@ -170,7 +160,6 @@ class _FormPageState extends State<FormPage> {
                         borderRadius: BorderRadius.circular(12),
                       ),
                     ),
-
                     validator: (value) {
                       if (value!.isNotEmpty && value.length < 5) {
                         return "Minimal 5 karakter";

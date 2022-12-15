@@ -212,19 +212,6 @@ class _StaticKalkulatorState extends State<StaticKalkulator> {
                     SizedBox(
                       height: 30,
                     ),
-                    // GestureDetector(
-                    //   onTap: () {},
-                    //   child: Container(
-                    //     padding: EdgeInsets.all(12),
-                    //     decoration: BoxDecoration(
-                    //         color: Colors.blue,
-                    //         borderRadius: BorderRadius.circular(8)),
-                    //     child: Text(
-                    //       'Simpan',
-                    //       style: TextStyle(color: Colors.white),
-                    //     ),
-                    //   ),
-                    // )
                   ],
                 ),
               ),
